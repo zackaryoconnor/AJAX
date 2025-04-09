@@ -1,0 +1,41 @@
+.searchInput {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid white;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  #searchResults {
+    color: lightgray;
+  }
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 46px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 164px;
+}
+
+.cardContainer p {
+    grid-column: 1 / -1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    outline: transparent;
+    border: 1px solid #FFE81F;
+    background-color: #000;
+    padding: 32px;
+    border-radius: 16px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: #FFE81F;
+}
